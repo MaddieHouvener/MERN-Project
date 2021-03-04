@@ -12,6 +12,8 @@ function App() {
   const [workouts, setWorkouts] = useState([]);
   const [loaded, setLoaded] = useState(false);
 
+  console.log('HI IM MADDIE');
+
   // Fetch initial workouts
   useEffect(() => {
     // console.log('IN USE EFFECT');
